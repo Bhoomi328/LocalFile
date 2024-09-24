@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define N 10
+//using array
 typedef struct queue
 {
     int q[N];
