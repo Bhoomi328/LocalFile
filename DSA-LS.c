@@ -28,7 +28,7 @@ int main() {
     enqueue(queue, 30);
     printQueue(queue);
     int res =  peek(queue);
-    printf("peek value is %d",res);
+    printf("peek value is = %d",res);
     printf("\n");
     dequeue(queue);
     dequeue(queue);
