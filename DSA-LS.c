@@ -28,7 +28,7 @@ int main() {
     enqueue(queue, 30);
     printQueue(queue);
     int res =  peek(queue);
-    printf("peek value is %d",res);
+    printf("peek value is = %d",res);
     printf("\n");
     dequeue(queue);
     dequeue(queue);
@@ -86,14 +86,14 @@ int dequeue(Queue* queue)
     return value;
 }
 
-int peek(Queue* queue)
+/*int peek(Queue* queue)
 {
    if(queue->front == -1)
    {
        printf("empty");
    }
     return queue->front->value;
-}
+}*/
 
 void isEmpty(Queue* queue)
 {
