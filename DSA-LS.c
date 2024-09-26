@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-
+//Changed the program
 typedef struct Node {
     int value;
     struct Node* next;
