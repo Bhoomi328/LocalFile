@@ -20,7 +20,7 @@ int peek(Queue* queue);
 void isEmpty(Queue* queue);
 void freeQueue(Queue* queue);
 void printQueue(Queue* queue);
-
+//observe the all git commands
 int main() {
     Queue* queue = createQueue();
     enqueue(queue, 10);
